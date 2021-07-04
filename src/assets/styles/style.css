@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.calculator-primary-btn {
+    @apply inline-block pl-2.5 h-16 w-16 border text-center text-4xl font-medium  text-white bg-gray-600;
+  }
+  .calculator-primary-btn:hover {
+    @apply bg-gray-500 transition ease-in-out duration-150;
+  }
+  .calculator-primary-btn:focus {
+    @apply outline-none border-gray-700 shadow-outline-gray;
+  }
+  .calculator-primary-btn:active {
+    @apply bg-gray-700;
+  }
+  .calculator-secondary-btn {
+    @apply inline-block pl-2.5 h-16 w-16 border text-center text-4xl font-medium  text-white bg-orange-600;
+  }
+  .calculator-secondary-btn:hover {
+    @apply bg-orange-500 transition ease-in-out duration-150;
+  }
+  .calculator-secondary-btn:focus {
+    @apply outline-none border-orange-700 shadow-outline-orange;
+  }
+  .calculator-secondary-btn:active {
+    @apply bg-orange-700;
+  }
+  .primary-btn{
+    @apply  p-2 border rounded 
+   }
+   .primary-btn:hover{
+    @apply bg-orange-400 text-white
+   }
